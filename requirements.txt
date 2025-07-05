@@ -1,0 +1,13 @@
+torch~=2.6.0+cu118
+numpy~=1.26.4
+torchvision~=0.21.0+cu118
+kymatio~=0.3.0
+tqdm~=4.66.5
+matplotlib~=3.9.2
+fonttools~=4.51.0
+six~=1.16.0
+scipy~=1.13.1
+pandas~=2.2.2
+pillow~=10.4.0
+holoviews~=1.19.1
+scikit-learn~=1.5.1
