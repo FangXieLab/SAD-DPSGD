@@ -3,7 +3,6 @@
 ## Description
 This repository contains the implementation and supplementary materials for the paper titled "Steps Adaptive Decay DPSGD: Enhancing Performance on Imbalanced Datasets with Differential Privacy with HAM10000" by Xiaobo Huang, Fang Xie.
 
-
 You can install the required dependencies using the following command:
 ```bash
 pip install -r requirements.txt

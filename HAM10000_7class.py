@@ -39,9 +39,9 @@ class SkinDataset(data.Dataset):
         return X, y
 def plot_class_distribution(df, dataset_name):
     """
-    绘制给定 DataFrame 的类别分布柱状图。
-    :param df: 包含类别信息的 Pandas DataFrame。
-    :param dataset_name: 数据集的名称（用于标题）。
+    plot the histogram of the class
+    :param df: Pandas DataFrame that contains information
+    :param dataset_name: the name of the dataset
     """
     class_counts = df["cell_type_idx"].value_counts().sort_index()
     labels = class_counts.index.tolist()

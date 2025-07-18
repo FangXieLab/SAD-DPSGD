@@ -37,9 +37,6 @@ def DPHAM10000(args):
     n_test = len(test_set)
     print('# of training examples: ', n_training, '# of testing examples: ', n_test)
 
-
-
-
     noise_multiplier_list = []
 
 
@@ -53,8 +50,6 @@ def DPHAM10000(args):
 
 
     if(args.sigma==None and args.eps!=None):
-
-
         if(args.Method =='SAD-DPSGD' or args.Method =='Auto-DP-SGD-S'):
             sigma,eps = get_sigma_list(float(sampling_prob), steps, args.eps,  args.delta,args.R ,args.qR, args.numOfstep)
         elif(args.Method == 'Auto-DP-SGD-L'):
